@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*body{
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+.box{
+    background-color: #e9ecef;
+}
+img{
+    width: 5.2rem;
+    padding: 11px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.arrow{
+    display: flex;
+}
+svg{
+    width: -webkit-fill-available;
+    height: 2em;
+    margin: auto;
+}
+.img-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button,a{
+    text-decoration: none;
+    width: 100%;
+}
+/* fever style */
+.fever-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.main-image{
+    height: 35vh !important;
+    width: auto;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: #e7f3ff;
+}
+.close:hover{
+    cursor: pointer;
+}
+/*
+.prevent-section{
+    margin: 0;
+    padding: 30px;
+}*/
+.cards-section{
+    margin-top: 20px;
+    padding: 10px;
+} 
